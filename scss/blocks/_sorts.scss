@@ -1,0 +1,39 @@
+.sorts {
+    margin-top: 116px;
+    
+  }
+  
+  .sorts__wrapper {
+    padding: 100px 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 28px;
+    background-image: url(../../img/our-collection.svg);
+    background-repeat: no-repeat;
+    background-size: 1111px 196px;
+    background-position: calc(50%)  calc(50% - 229px);
+  }
+  
+  .sorts__block {
+    text-align: center;
+  }
+  
+  .sorts-name {
+    color: #333d4b;
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    margin-top: 71px;
+  }
+  
+  .sorts-text {
+    max-width: 255px;
+    color: #333d4b;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 25px;
+  }
