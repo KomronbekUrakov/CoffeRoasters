@@ -1,0 +1,33 @@
+@import ".././mixin";
+
+.quality {
+  padding: 80px 0 168px;
+  position: relative;
+}
+.quality-img {
+  max-width: 413px;
+  max-height: 431px;
+  position: absolute;
+  right: 147px;
+  top: 0;
+  background: none;
+  border-radius: 10px;
+}
+.quality-content-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0 147px 0 0;
+  max-width: 1200px;
+  padding: 95px 0 142px 85px;
+  border-radius: 10px;
+  background: #2c343e;
+}
+.quality-content {
+  max-width: 540px;
+}
+.quality-title {
+  @include title();
+}
+.quality-text {
+  @include text();
+}

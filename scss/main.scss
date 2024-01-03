@@ -1,13 +1,32 @@
+@charset "UTF8";
 @import "container";
 @import "fonts";
 @import "generals";
 @import "normalize";
 @import "visually-hidden";
- @import "blocks/blocks";
- @import "media"
+@import "blocks/blocks";
+@import "media";
+@import "mixin";
+@import "./about/about.scss";
+
+.intro {
+  @include display();
+  background-image: url("../img/intro-tablet-bg.jpg"), url("../img/Intro-bg.jpg"),;
+  background-repeat: no-repeat;
+  background-size: 0, cover;
+  background-position: center;
+  padding: 137px 0 137px 85px;
+  border-radius: 10px;
+}
+.intro__wrapper {
+  width: 445px;
   
-  
-  
- 
-  
-  
+}
+
+.intro__title {
+  @include title();
+  margin-bottom: 24px;
+}
+.intro__text {
+  @include text();
+}

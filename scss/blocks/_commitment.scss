@@ -1,0 +1,18 @@
+@import "../mixin";
+
+.commitment {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 168px 0;
+}
+.commitment__content {
+    width: 540px;
+}
+.commitment__content-title {
+    @include title (#333D4B);
+}
+.commitment__content-text {
+    @include text(#333D4B);
+    opacity: 0.8;
+}

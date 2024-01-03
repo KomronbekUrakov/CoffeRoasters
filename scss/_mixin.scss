@@ -1,0 +1,22 @@
+@mixin display($flex-direction: row, $justify-content: space-between) {
+  display: flex;
+  align-items: center;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content;
+}
+@mixin title($text-color: #fefcf7, $font-size: 40px, $line-height: 48px) {
+  color: $text-color;
+  font-family: "Fraunces", serif;
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: 900;
+  line-height: $line-height;
+}
+@mixin text($color: #fefcf7, $font-size: 16px, $line-height: 26px) {
+  color: $color;
+  font-family: "Barlow", sans-serif;
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: 400;
+  line-height: $line-height;
+}
